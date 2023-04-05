@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Four card feature section</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    body {
+      text-align: center;
+    }
+    img{
+      position: relative;
+      left: 200px;
+    }
+    .top{
+      display: inline-block;
+      width: 450px;
+    }
+    .grey{
+      color: grey;
+    }
+    .con{
+      border-top: solid;
+      border: solid #fff;
+      box-shadow: 3px 3px 3px #cac7c7;
+      display: inline-block;
+      position: relative;
+      width: 300px;
+      text-align: left;
+    }
+    .con1{
+      border-top-color: aqua;
+      top: 100px;
+      left: 100px;
+    }
+    .con2{
+      border-top-color: red;
+      left: 150px;
+    }
+    .con3{
+      border-top-color: orange;
+      top: 260px;
+      right: 150px;
+    }
+    .con4{
+      border-top-color: blue;
+      top: 100px;
+      right: 100px;
+    }
+    .nobold {
+      font-weight: 10;
+    }
+
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+      position:static;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+    @media (max-width: 500px) {
+      body{
+        text-align: center;
+      }
+      .con{
+        display: block;
+        position: static;
+        margin: 1rem;
+        margin-left: 15%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main id="body">
+    <div class="top">
+      <h1 class="nobold grey">Reliable, efficient delivery</h1>
+      <h1>Powered by Technology</h1>
+
+      <p class="grey">Our Artificial Intelligence powered tools use millions of project data points
+        to ensure that your project is successful</p>
+    </div>
+    <br>
+    <div class="con1 con">
+      <h2>Supervisor</h2>
+      <p class="grey">Monitors activity to identify project roadblocks</p>
+      <img src="images/icon-supervisor.svg" alt="Supervisor">
+    </div>
+    <div class="con2 con">
+      <h2>Team Builder</h2>
+      <p class="grey">Scans our talent network to create the optimal team for your project</p>
+      <img src="images/icon-team-builder.svg" alt="team">
+    </div>
+    <div class="con3 con">
+      <h2> Karma</h2>
+      <p class="grey"> Regularly evaluates our talent to ensure quality</p>
+      <img src="images/icon-karma.svg" alt="Karma">
+    </div>
+    <div class="con4 con">
+      <h2>Calculator</h2>
+      <p class="grey">Uses data from past projects to provide better delivery estimates</p>
+      <img src="images/icon-calculator.svg" alt="Calculator">
+    </div>
+  </main>
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+      Coded by <a href="#">Abhishek Bansal</a>.
+    </p>
+  </footer>
+</body>
+
+</html>
